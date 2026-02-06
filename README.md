@@ -1,5 +1,7 @@
 # GISA: A Benchmark for General Information-Seeking Assistant
 
+Authors: Yutao Zhu, Xingshuo Zhang, Maosen Zhang, Jiajie Jin, Liancheng Zhang, Xiaoshuai Song, Kangzhi Zhao, Wencong Zeng, Ruiming Tang, Han Li, Ji-Rong Wen, and Zhicheng Dou
+
 GISA is a benchmark for General Information-Seeking Assistants with 373 human-crafted queries that reflect real-world information needs. It includes both stable and live subsets, four structured answer formats (item, set, list, table), and complete human search trajectories for every query.
 
 ## Links
