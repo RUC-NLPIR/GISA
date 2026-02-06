@@ -3,9 +3,9 @@
 GISA is a benchmark for General Information-Seeking Assistants with 373 human-crafted queries that reflect real-world information needs. It includes both stable and live subsets, four structured answer formats (item, set, list, table), and complete human search trajectories for every query.
 
 ## Links
-- GitHub: https://github.com/RUC-NLPIR/GISA
+- LeaderBoard: (TBD)
 - arXiv: (TBD)
-- Dataset: (TBD)
+- Dataset: https://huggingface.co/datasets/RUC-NLPIR/GISA
 
 ## Benchmark Highlights
 - **Diverse answer formats with deterministic evaluation.**  
