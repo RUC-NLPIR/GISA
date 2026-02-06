@@ -1,10 +1,12 @@
-# GISA: A Benchmark for General Information-Seeking Assistant
+<h1 align="center">GISA: A Benchmark for General Information-Seeking Assistant</h1>
 
+<div align="center"> 
 <p>
 <a href=""><img src="https://img.shields.io/badge/License-MIT-blue" alt="license"></a>
 <a href=""><img src="https://img.shields.io/badge/Paper-Arxiv-red"></a>
 <a href="[https://huggingface.co/datasets/yutaozhu94/RoleRAG-datasets](https://huggingface.co/datasets/RUC-NLPIR/GISA)"><img src="https://img.shields.io/badge/Datasets-%F0%9F%A4%97%20Hugging%20Face-8A2BE2"></a>
 </p>
+</div>
 
 **Authors**: Yutao Zhu, Xingshuo Zhang, Maosen Zhang, Jiajie Jin, Liancheng Zhang, Xiaoshuai Song, Kangzhi Zhao, Wencong Zeng, Ruiming Tang, Han Li, Ji-Rong Wen, and Zhicheng Dou
 
