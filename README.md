@@ -24,9 +24,20 @@ Please follow our submission instructions (link coming soon) and open a pull req
 
 ## Citation
 ```bibtex
-@inproceedings{gisa2026,
+@article{GISA,
   title     = {GISA: A Benchmark for General Information Seeking Assistant},
-  author    = {Yutao Zhu and Xingshuo Zhang and Maosen Zhang and Jiajie Jin and Liancheng Zhang and Xiaoshuai Song and Kangzhi Zhao and Wencong Zeng and Ruiming Tang and Han Li and Ji-Rong Wen and Zhicheng Dou},
+  author    = {Yutao Zhu and
+               Xingshuo Zhang and
+               Maosen Zhang and
+               Jiajie Jin and
+               Liancheng Zhang and
+               Xiaoshuai Song and
+               Kangzhi Zhao and
+               Wencong Zeng and
+               Ruiming Tang and
+               Han Li and
+               Ji-Rong Wen and
+               Zhicheng Dou},
   booktitle = {TBD},
   year      = {2026}
 }
