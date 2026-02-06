@@ -23,6 +23,13 @@ GISA is a benchmark for General Information-Seeking Assistants with 373 human-cr
 <img src="https://github.com/RUC-NLPIR/GISA/blob/main/fig/overview.jpg">
 </div>
 
+## Evaluation
+Please use the script in `eval_script` for evaluation.
+
+```sh
+bash run_eval.sh
+```
+
 ## Submission
 Please follow our submission instructions (link coming soon) and open a pull request on the GitHub repository. We review PRs periodically and merge approved results.
 
