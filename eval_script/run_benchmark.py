@@ -46,22 +46,20 @@ def run_benchmark(
     output_dir = os.path.join(output_dir, f"{model_name}_{'thinking' if enable_thinking else 'nothinking'}{save_note}")
     os.makedirs(output_dir, exist_ok=True)
     data = load_benchmark_data(benchmark_data_path)
-    data = data[:1]
 
     print(f"Starting Benchmark: Total=[{len(data)}] | Dir=[{output_dir}]")
     results = []
-    # with ThreadPoolExecutor(max_workers=max_workers) as executor:
-    #     future_to_idx = {
-    #         executor.submit(process_query, q, output_dir, api_key, base_url, model_name, enable_thinking): q['id'] 
-    #         for i, q in enumerate(data)
-    #     }
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        future_to_idx = {
+            executor.submit(process_query, q, output_dir, api_key, base_url, model_name, enable_thinking): q['id'] 
+            for i, q in enumerate(data)
+        }
 
-    #     for future in tqdm(as_completed(future_to_idx), total=len(data)):
-    #         try:
-    #             results.append(future.result())
-    #         except Exception as e:
-    #             print(f"Error: {e}")
-    process_query(data[0], output_dir, api_key, base_url, model_name, enable_thinking)
+        for future in tqdm(as_completed(future_to_idx), total=len(data)):
+            try:
+                results.append(future.result())
+            except Exception as e:
+                print(f"Error: {e}")
 
     results.sort(key=lambda x: x['idx'])
     with open(f"{output_dir}/_report_all.json", 'w', encoding='utf-8') as f:
