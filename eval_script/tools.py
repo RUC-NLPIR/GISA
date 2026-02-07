@@ -23,6 +23,8 @@ import sys
 import sqlite3
 import threading
 import hashlib
+import re
+import json_repair
 
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
@@ -114,7 +116,7 @@ class BaseTool(ABC):
                 if strict_json:
                     params_json: dict = json.loads(params)
                 else:
-                    params_json: dict = json_loads(params)
+                    params_json: dict = json_repair.loads(params)
             except json.decoder.JSONDecodeError:
                 raise ValueError('Parameters must be formatted as a valid JSON!')
         else:
