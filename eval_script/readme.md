@@ -34,7 +34,7 @@ The results will be saved in the `./benchmark_results/` directory, inside a fold
 * Each question produces a separate JSON file.
 * These files contain the full message history of the agent and the final prediction.
 
----
+
 
 ## 📊 Evaluation
 
@@ -63,7 +63,7 @@ After running the evaluator, two files will be generated inside the `pred_dir_pa
 1. **`_all_evaluation_results.json`**: Contains detailed evaluation results for every single data point.
 2. **`_final_scores.json`**: Contains the aggregated metric scores for the entire dataset.
 
----
+
 
 ## 🔗 Evaluating Other Frameworks
 
