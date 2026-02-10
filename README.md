@@ -30,7 +30,7 @@ GISA is a benchmark for General Information-Seeking Assistants with 373 human-cr
 Please follow the instruction in `eval_script` for evaluation.
 
 ## Submission
-Please follow our submission instructions (link coming soon) and open a pull request on the GitHub repository. We review PRs periodically and merge approved results.
+Please send your results to yutaozhu94 AT gmail.com and open a pull request on the GitHub repository. We review PRs periodically and merge approved results.
 
 ## Citation
 ```bibtex
