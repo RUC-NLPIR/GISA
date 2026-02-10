@@ -48,6 +48,11 @@ Please follow our submission instructions (link coming soon) and open a pull req
                Han Li and
                Ji-Rong Wen and
                Zhicheng Dou},
-  booktitle = {TBD},
-  year      = {2026}
+  journal      = {CoRR},
+  volume       = {abs/2602.08543},
+  year         = {2026},
+  url          = {https://doi.org/10.48550/arXiv.2602.08543},
+  doi          = {10.48550/ARXIV.2602.08543},
+  eprinttype    = {arXiv},
+  eprint       = {2602.08543}
 }
