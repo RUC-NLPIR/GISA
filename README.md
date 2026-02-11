@@ -30,7 +30,7 @@ GISA is a benchmark for General Information-Seeking Assistants with 373 human-cr
 Please follow the instruction in `eval_script` for evaluation.
 
 ## Submission
-Please send your results to yutaozhu94 AT gmail.com or use [HuggingFace leaderboard submission system](https://huggingface.co/spaces/RUC-NLPIR/GISA-LeaderBoard). We review PRs periodically and merge approved results.
+Please send your results to yutaozhu94 AT gmail.com or use [HuggingFace leaderboard submission system](https://huggingface.co/spaces/RUC-NLPIR/GISA-LeaderBoard). We will merge approved results periodically.
 
 ## Citation
 ```bibtex
