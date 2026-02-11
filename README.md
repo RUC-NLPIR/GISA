@@ -5,6 +5,7 @@
 <a href="https://github.com/RUC-NLPIR/GISA/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache-blue" alt="license"></a>
 <a href="https://arxiv.org/abs/2602.08543"><img src="https://img.shields.io/badge/Paper-Arxiv-red"></a>
 <a href="https://huggingface.co/datasets/RUC-NLPIR/GISA"><img src="https://img.shields.io/badge/Datasets-%F0%9F%A4%97%20Hugging%20Face-8A2BE2"></a>
+<a href="https://huggingface.co/spaces/RUC-NLPIR/GISA-LeaderBoard"><img src="https://img.shields.io/badge/Leaderboard-%F0%9F%A4%97%20Hugging%20Face-8A2BE2"></a>
 <a href="https://ruc-nlpir.github.io/GISA/"><img src="https://img.shields.io/badge/Leaderboard-GISA-orange"></a>
 </p>
 </div>
