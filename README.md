@@ -49,11 +49,11 @@ Please send your results to yutaozhu94 AT gmail.com or use [HuggingFace leaderbo
                Han Li and
                Ji-Rong Wen and
                Zhicheng Dou},
-  journal      = {CoRR},
-  volume       = {abs/2602.08543},
-  year         = {2026},
-  url          = {https://doi.org/10.48550/arXiv.2602.08543},
-  doi          = {10.48550/ARXIV.2602.08543},
-  eprinttype    = {arXiv},
-  eprint       = {2602.08543}
+  journal    = {CoRR},
+  volume     = {abs/2602.08543},
+  year       = {2026},
+  url        = {https://doi.org/10.48550/arXiv.2602.08543},
+  doi        = {10.48550/ARXIV.2602.08543},
+  eprinttype = {arXiv},
+  eprint     = {2602.08543}
 }
