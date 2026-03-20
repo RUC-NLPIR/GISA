@@ -82,7 +82,7 @@ class ReActAgent:
                     step_message['reasoning_details'] = message.reasoning_details
                 else:
                     step_message['reasoning_content'] = message.reasoning_content
-                messages.append(step_message)
+            messages.append(step_message)
 
             token_stats["total_input_tokens"] += i_tok
             token_stats["total_output_tokens"] += o_tok
