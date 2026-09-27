@@ -10,6 +10,8 @@
 </p>
 </div>
 
+**Accepted in**: NeurIPS 2026 Evaluations & Datasets Track
+
 **Authors**: Yutao Zhu, Xingshuo Zhang, Maosen Zhang, Jiajie Jin, Liancheng Zhang, Xiaoshuai Song, Kangzhi Zhao, Wencong Zeng, Ruiming Tang, Han Li, Ji-Rong Wen, and Zhicheng Dou
 
 ## Benchmark Highlights
