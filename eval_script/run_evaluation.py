@@ -229,7 +229,10 @@ class SimpleEvaluator:
             metrics = self.evaluate_item(pred_df, gt_df)
         if pred_df is not None:
             if q_type != 'set':
-                metrics['global_em'] =  int(np.array_equal(pred_df.to_numpy(), gt_df.to_numpy()))
+                cells_match = np.array_equal(pred_df.to_numpy(), gt_df.to_numpy())
+                if q_type == 'table':
+                    cells_match = cells_match and pred_df.columns.equals(gt_df.columns)
+                metrics['global_em'] = int(cells_match)
             else:
                 pred_set = set(pred_df.iloc[:, 0].tolist())
                 gt_set = set(gt_df.iloc[:, 0].tolist())
